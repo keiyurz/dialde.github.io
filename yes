@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+    <style>
+        body {
+            background-color: color
+            font-family: Arial;
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: pink;
+            color: pink; 
+        }
+
+        td {
+            background-color: color;
+        }
+
+        .box {
+            border: 1px solid color;
+            border-radius: 10px;
+            background-color: color;
+            width: 180px;
+            margin: auto;
+            padding: 5px;
+            text-align: left;
+
+        ol {
+           padding-left: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Information</h2>
+
+    <table>
+        <tr>
+            <th rowspan="3">Info</th>
+            <td><b>Name</b></td>
+            <td>Ashley Shane R. Dialde</td>
+        </tr>
+        <tr>
+            <td><b>School</b></td>
+            <td>Holy Cross of Davao College</td>
+        </tr>
+        <tr>
+            <td><b>Course</b></td>
+            <td>BS Information Technology</td>
+        </tr>
+    </table>
+
+    <h3>Favorite Subjects</h3>
+
+    <div class="box">
+        <ol>
+            <li>kaon</li>
+            <li>sleep</li>
+            <li>kaon</li>
+        </ol>
+    </div>
+
+</body>
+</html>
